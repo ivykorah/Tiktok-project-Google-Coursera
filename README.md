@@ -16,8 +16,8 @@ Prepare the data for further analysis.
 #Dataset Overview
 The dataset consists of 19,383 rows and 12 columns. Each row represents a different published TikTok video in which a claim/opinion has been made.. Below is a breakdown of the dataset:
 
--# (int) - TikTok assigned number for video with claim/opinion.
--claim_status (obj) - Whether the published video has been identified as an “opinion” or a “claim.” In this dataset, an “opinion” refers to an individual’s or group’s personal beliefs or thoughts. A “claim” refers to information that is either unsourced or from an unverified source.
+- **#** (int) - TikTok assigned number for video with claim/opinion.
+- **claim_status** (obj) - Whether the published video has been identified as an “opinion” or a “claim.” In this dataset, an “opinion” refers to an individual’s or group’s personal beliefs or thoughts. A “claim” refers to information that is either unsourced or from an unverified source.
 -video_id (int) - Random identifying number assigned to video upon publication on TikTok.
 -video_duration_sec (int) - How long the published video is measured in seconds.
 -video_transcription_text (obj) - Transcribed text of the words spoken in the published video.
