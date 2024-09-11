@@ -6,14 +6,15 @@ TikTok users have the ability to submit reports that identify videos and comment
 
 TikTok is working on the development of a predictive model that can determine whether a video contains a claim or offers an opinion. With a successful prediction model, TikTok can reduce the backlog of user reports and prioritize them more efficiently.
 
-#This project includes the following tasks:
-Construct a dataframe from the churn dataset.
-Review the data types of each column.
-Generate descriptive statistics to understand the dataset better.
-Prepare the data for further analysis.
+## **Objectives**
+This project includes the following tasks:
+- Construct a dataframe from the churn dataset.
+- Review the data types of each column.
+- Generate descriptive statistics to understand the dataset better.
+- Prepare the data for further analysis.
 
 
-#Dataset Overview
+## **Dataset Overview**
 The dataset consists of 19,383 rows and 12 columns. Each row represents a different published TikTok video in which a claim/opinion has been made.. Below is a breakdown of the dataset:
 
 - **#** (int) - TikTok assigned number for video with claim/opinion.
@@ -30,9 +31,9 @@ The dataset consists of 19,383 rows and 12 columns. Each row represents a differ
 - **video_comment_count** (float) - The total number of comments on the published video. 
 
 
-#Assignment Goals
+## **Assignment Goals**
 The main tasks of this project are to:
 
-Build a dataframe for the TikTok dataset
-Examine data type of each column
-Gather descriptive statistics
+- Build a dataframe for the TikTok dataset
+- Examine data type of each column
+- Gather descriptive statistics
